@@ -1,5 +1,5 @@
-//tamar pinhasi
-//214831349
+#tamar pinhasi
+#214831349
 FROM ubuntu:16.04
 
 # add from local directory
