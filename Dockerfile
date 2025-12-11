@@ -1,5 +1,4 @@
-#tamar pinhasi
-#214831349
+//tamar pinhasi
 FROM ubuntu:16.04
 
 # add from local directory
@@ -8,12 +7,12 @@ RUN apt-get -qq update && \
 # --no-install-recommends reduces the Image size by almost 15%,
 # but in our case git needs --reinstall ca-certificates to work 
     apt-get install -y --no-install-recommends --reinstall ca-certificates \
-        git \
-        make \
-        gcc-multilib \
-        qemu-system \
+                    git \
+                    make \
+                    gcc-multilib \
+                    qemu-system \
+                    
 # put dependencies here by the same way as git
-
                     
                     
                     
@@ -32,4 +31,3 @@ WORKDIR /xv6
 #WORKDIR /xv6-11
 
 CMD ["/bin/bash"]
-
