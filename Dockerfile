@@ -13,7 +13,8 @@ RUN apt-get -qq update && \
         gcc-multilib \
         qemu-system \
 # put dependencies here by the same way as git
-           
+
+                    
                     
                     
     &&git clone https://github.com/mit-pdos/xv6-public.git  xv6 \
